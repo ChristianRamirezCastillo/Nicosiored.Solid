@@ -18,7 +18,7 @@ namespace DependencyInversion
             Console.WriteLine("-------------------------------------");
 
             Auditor auditor = new Auditor(almacen);
-            total = auditor.TotalAlimentos;
+            total = auditor.TotalAlimentos();
 
             Console.WriteLine($"El total de alimentos es {total}");
         }
